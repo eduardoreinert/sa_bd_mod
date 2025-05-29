@@ -26,16 +26,6 @@ if (!localStorage.getItem("usuarios")) {
   }
 });
 
-window.addEventListener("DOMContentLoaded", function () {
-  const idiomaSalvo = localStorage.getItem("idiomaSelecionado");
-  const selectIdioma = document.getElementById("idioma");
-
-  if (idiomaSalvo) {
-    selectIdioma.value = idiomaSalvo;
-  }
-});
-
-  
 
 // Adiciona um evento ao botão com classe .botao-embora
 // Quando clicado, redireciona o usuário para o Google
