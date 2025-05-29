@@ -126,7 +126,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Botão sair redireciona para página de login
   document.querySelector(".sair")?.addEventListener("click", () => {
-    window.location.href = "login-estilo-ig.html";
+    window.location.href = "login-ig.html";
   });
 });
 
